@@ -10,7 +10,7 @@ abstract class ViewModel extends State<AnasafaServices> {
   @override
   void initState() {
     super.initState();
-
+    // Servisden verileri çek
     fetch();
   }
 
